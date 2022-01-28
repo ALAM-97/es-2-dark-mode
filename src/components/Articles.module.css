@@ -1,0 +1,86 @@
+/* BUTTON STYLING */
+.button {
+  text-align: center;
+  margin: 20px;
+}
+button {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: .7rem;
+  font-weight: bold;
+}
+/* light btn */
+.lightBtn {
+  background-color: #3892C2;
+  color: #000;
+  transition: all .5s;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0,);
+}
+.lightBtn:hover {
+  background-color: #000;
+  color: #3892C2;
+}
+/* dark btn */
+.darkBtn {
+  background-color: #DF372B;
+  color: #fff;
+  transition: all .5s;
+}
+.darkBtn:hover {
+  background-color: #fff;
+  color: #DF372B;
+}
+/* ARTICLES */
+.articles {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+li {
+  width: calc(100% / 2 - 40px);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+li h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+li p {
+  font-size: .9rem;
+}
+/* light articles */
+.lightLi {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 5px 2px 10px 5px rgba(0, 0, 0, .1);
+  transition: all .5s;
+}
+.light {
+  color: #000;
+}
+.lightUnderline {
+  background-color: #3892C2;
+  width: 70px;
+  height: 2px;
+  margin: auto;
+  border-radius: 10px;
+}
+/* dark articles */
+.darkLi {
+  background-color: #272724;
+  transition: all .5s;
+}
+.dark {
+  color: rgb(224, 224, 224);
+}
+.darkUnderline {
+  background-color: #DF372B;
+  width: 70px;
+  height: 2px;
+  margin: auto;
+  border-radius: 10px;
+}
